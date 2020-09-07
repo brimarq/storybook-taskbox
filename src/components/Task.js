@@ -30,6 +30,12 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
   );
 }
 
+/**
+ * It’s best practice to use propTypes in React to specify the shape of data that a component expects. 
+ * Not only is it self documenting, it also helps catch problems early, as a warning in development 
+ * will appear if the Task component is misused.
+ */
+
 Task.propTypes = {
   /** Composition of the task */
   task: PropTypes.shape({
