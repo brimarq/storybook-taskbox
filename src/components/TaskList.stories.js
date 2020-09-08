@@ -1,5 +1,6 @@
 import React from 'react';
-import TaskList from './TaskList';
+// Use just the presentational component of TaskList w/mock data
+import { PureTaskList } from './TaskList';
 /** 
  * By importing TaskStories, we were able to compose the arguments (args for short) in 
  * our stories with minimal effort. That way the data and actions (mocked callbacks) 
@@ -15,12 +16,12 @@ import * as TaskStories from './Task.stories';
  * “providers” –i.e. library components that set React context.
  */
 export default {
-  component: TaskList,
+  component: PureTaskList,
   title: 'TaskList',
   decorators: [story => <div style={{ padding: '3rem' }}>{story()}</div>]
 };
 
-const Template = args => <TaskList {...args} />;
+const Template = args => <PureTaskList {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
