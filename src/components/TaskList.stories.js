@@ -57,5 +57,5 @@ Empty.args = {
   // Shaping the stories through args composition.
   // Inherited data coming from the Loading story.
   ...Loading.args,
-  loading: true
+  loading: false
 };
