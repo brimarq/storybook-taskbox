@@ -1,3 +1,9 @@
+# storybook-taskbox  
+
+Code for the [Intro to Storybook tutorial](https://www.learnstorybook.com/intro-to-storybook). 
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

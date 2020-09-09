@@ -1,7 +1,14 @@
 {
-  "name": "taskbox",
+  "name": "storybook-taskbox",
+  "description": "Code for the Intro to Storybook tutorial on learnstorybook.com",
   "version": "0.1.0",
+  "author": "Brian Marquis <rbmarquis.dev@gmail.com>",
   "private": true,
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brimarq/storybook-taskbox.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
