@@ -18,9 +18,10 @@ export default {
   title: 'Task', 
   parameters: {
     assets: [
-      'path/to/your/asset.png',
-      'path/to/another/asset.png',
-      'path/to/yet/another/asset.png'
+      'designs/app.png',
+      'designs/items.png',
+      'designs/list-1.png',
+      'designs/list-2.png'
     ]
   },
   argTypes: {
